@@ -29,4 +29,4 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             sudo rm -rf /var/www/html/*
-            sudo cp -r /tmp/site/* /var/www/html/
+            sudo cp -r /tmp/site/*  /var/www/html/
